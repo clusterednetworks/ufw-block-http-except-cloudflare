@@ -6,7 +6,7 @@
 # This file is free software; as a special exception the author gives
 # unlimited permission to copy and/or distribute it, with or without
 # modifications, as long as this notice is preserved.
-# This script will fetch cloudflare's IP Blocks and add the IP's to allow from in UFW
+# This script will fetch cloudflare IP Blocks and add the IP s to allow from in UFW
 # works on debian based Linux
 DIR="$(dirname $(readlink -f $0))"
 cd $DIR
