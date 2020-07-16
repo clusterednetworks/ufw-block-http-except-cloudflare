@@ -1,6 +1,11 @@
 #!/bin/sh
 # This file had been modified by clusterednetworks.com
 # 2018-11-20
+# Copyright (C) 2018  <ron@clusterednetworks.com>
+
+# This file is free software; as a special exception the author gives
+# unlimited permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
 DIR="$(dirname $(readlink -f $0))"
 cd $DIR
 wget https://www.cloudflare.com/ips-v4 -O ips-v4.tmp
