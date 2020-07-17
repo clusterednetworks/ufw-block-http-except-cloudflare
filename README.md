@@ -14,4 +14,5 @@ This script is designed for debian based linux servers using the UFW (Uncomplica
 <code>chmod +x cloudflare-ufw.sh</code>
 5. Run the script.
 <code>./cloudflare-ufw.sh</code>
-6. Dont forget to remove your firewall rules to allow all http and https
+6. Dont forget to remove your firewall rules that allows "from all http and https"
+7. Test
