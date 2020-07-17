@@ -9,9 +9,9 @@ This script is designed for debian based linux servers using the UFW (Uncomplica
 <code>sudo -i</code>
 3. Download the installer script.
 <code>wget https://raw.githubusercontent.com/clusterednetworks.com/ufw-block-http-except-clouldflare
-/master/
+/master/cloudflare-ufw.sh</code>
 4. Make the script executable
-<code>chmod +x openvpn.sh
+<code>chmod +x cloudflare-ufw.sh</code>
 5. Run the script.
-<code>./openvpn.sh
+<code>./cloudflare-ufw.sh</code>
 6. Dont forget to remove your firewall rules to allow all http and https
