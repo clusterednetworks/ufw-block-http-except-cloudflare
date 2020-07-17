@@ -21,4 +21,5 @@ will force all http/https traffic through cloudflare.
 5. Run the script.
 <code>./cloudflare-ufw.sh</code>
 6. Dont forget to remove your firewall rules that allows "from all http and https"
-7. Test
+7. Test your firewall rules
+8. Setup a cronjob to run the script daily/weekly if you choose.
