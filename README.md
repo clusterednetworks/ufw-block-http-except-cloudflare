@@ -1,6 +1,12 @@
 # ufw-block-http-except-clouldflare
-This is a shell script that will get cloudflares IP Block and then generate a ufw allow command
+This is a shell script that will allow your to block all http and https traffic
+from the internet and allow only cloudflares IP Block. It will then generate a ufw allow command
+for all of Cloudflares IP Block.
+
 This script is designed for debian based linux servers using the UFW (Uncomplicated Firewall)
+
+Using this script properly will essentially give your server the best DDoS protection as it
+will force all http/https traffic through cloudflare.
 
 # Usage:
 
