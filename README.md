@@ -2,7 +2,7 @@
 This is a shell script that will get cloudflares IP Block and then generate a ufw allow command
 This script is designed for debian based linux servers using the UFW (Uncomplicated Firewall)
 
-# Useage:
+# Usage:
 
 1. Pull up a terminal or SSH into the target server.
 2. Logon as root
