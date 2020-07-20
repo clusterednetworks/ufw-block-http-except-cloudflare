@@ -1,4 +1,4 @@
-# ufw-block-http-except-clouldflare
+# ufw-block-http-except-cloudflare
 This is a shell script that will allow your to block all http and https traffic
 from the internet and allow only cloudflares IP Block. It will then generate a ufw allow command
 for all of Cloudflares IP Block.
