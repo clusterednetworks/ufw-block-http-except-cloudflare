@@ -18,8 +18,7 @@ will force all http/https traffic through cloudflare.
 
 3. Download the installer script.
 
-<code>wget https://raw.githubusercontent.com/clusterednetworks/ufw-block-http-except-clouldflare
-/master/cloudflare-ufw.sh</code>
+<code>wget https://raw.githubusercontent.com/clusterednetworks/ufw-block-http-except-clouldflare/master/cloudflare-ufw.sh</code>
 
 4. Make the script executable
 
